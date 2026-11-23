@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExMod.Exiled" Version="9.15.2" PrivateAssets="all" />
+    <!-- LabAPI is bundled with every SCP:SL dedicated server, so it must not be shipped with the plugin. -->
+    <PackageReference Include="Northwood.LabAPI" Version="1.1.7" PrivateAssets="all" ExcludeAssets="runtime" />
+    <!-- Game reference assembly, used for InventorySystem.Items.Usables.Scp330.CandyKindID. -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>refs\Assembly-CSharp-Publicized.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 </Project>
