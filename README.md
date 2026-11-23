@@ -2,7 +2,7 @@
 
 An [SCP: Secret Laboratory](https://store.steampowered.com/app/700330/) [LabAPI](https://github.com/northwood-studios/LabAPI) plugin that replaces candy taken from SCP-330 with **Pink Candy** based on a configurable probability.
 
-> Migrated from EXILED to LabAPI (`Northwood.LabAPI` 1.1.7). The plugin no longer depends on `ExMod.Exiled`.
+> LabAPI (`Northwood.LabAPI` 1.1.7). .
 
 ## Features
 
